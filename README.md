@@ -179,10 +179,10 @@ Our research implements **6 different feature extraction techniques** to create 
 
 ```
 caltech/
-├── README.md                           # This comprehensive documentation
+├── README.md                           # Project documentation
 ├── requirements.txt                    # Python dependencies
 ├── .gitignore                         # Git ignore file
-├── CALTECH7_DB-SCAN.pdf              # Detailed results and analysis
+├── CALTECH7_DB-SCAN.pdf              # Research results and analysis
 │
 ├── notebooks/                         # Jupyter notebooks
 │   ├── CALTECH7LBP-checkpoint.ipynb  # LBP analysis on Caltech-7
@@ -202,15 +202,9 @@ caltech/
 │   └── coil20_info.md                # COIL-20 dataset details
 │
 ├── results/                           # Results and analysis
-│   ├── performance_summary.csv       # Performance metrics table
-│   ├── clustering_visualizations/    # PCA plots and cluster visualizations
-│   └── parameter_analysis/           # Parameter tuning results
+│   └── performance_summary.csv       # Performance metrics table
 │
-└── src/                              # Source code modules
-    ├── feature_extraction.py         # Feature extraction functions
-    ├── clustering.py                 # Clustering algorithms
-    ├── evaluation.py                 # Evaluation metrics
-    └── visualization.py              # Visualization functions
+└── src/                              # Source code modules (empty)
 ```
 
 ## 🚀 Getting Started
@@ -333,42 +327,13 @@ DBSCAN was chosen over K-Means because:
 3. **Real-world Applications**: Apply to practical computer vision problems
 4. **Comparative Studies**: Compare with state-of-the-art multi-view clustering methods
 
-## 📖 References and Citations
 
-### Key Papers
-1. Ester, M., et al. (1996). "A density-based algorithm for discovering clusters in large spatial databases with noise." KDD.
-2. Ojala, T., et al. (2002). "Multiresolution gray-scale and rotation invariant texture classification with local binary patterns." TPAMI.
-3. Dalal, N., & Triggs, B. (2005). "Histograms of oriented gradients for human detection." CVPR.
+## 📞 Contact
 
-### Datasets
-1. Fei-Fei, L., et al. (2004). "Learning generative visual models from few training examples." CVPR.
-2. Nene, S. A., et al. (1996). "Columbia object image library (COIL-20)." Technical Report.
-
-## 👥 Authors and Acknowledgments
-
-- **Primary Researcher**: [Your Name]
-- **Institution**: [Your Institution]
-- **Year**: 2023-2024
-
-### Acknowledgments
-- Thanks to the creators of the Caltech-101 and COIL-20 datasets
-- Appreciation for the open-source libraries used in this research
-- Special thanks to the machine learning community for inspiration and resources
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📞 Contact and Support
-
-For questions, suggestions, or collaboration opportunities, please contact:
+For questions or collaboration opportunities:
 - **Email**: kunalsali04@gmail.com
 - **GitHub**: kunnaall04
 
 ---
 
-**Note**: This research represents a comprehensive investigation into multi-view clustering for image data. The results demonstrate the effectiveness of combining multiple feature extraction methods and the importance of proper parameter optimization in clustering algorithms.
+**Note**: This research demonstrates multi-view clustering using various feature extraction methods and DBSCAN clustering on image datasets.
